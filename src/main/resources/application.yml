@@ -1,0 +1,12 @@
+server:
+  servlet.context-path: /productservice
+  port: 8080
+
+spring:
+  application:
+     name: productservice 
+ 
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .html
